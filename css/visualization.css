@@ -1,0 +1,41 @@
+body {
+    background-color: #fff;
+}
+
+h4 {
+    color: #fff;
+}
+
+/* <!-- selector start  --> */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+    margin: 20px;
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 2;
+    text-align: center;
+    width: 95%;
+}
+
+/* <!-- selector end  --> */
+
+/* <!----------------------Graph Representation start ----------------- --> */
+
+.card-header {
+    background-image: linear-gradient(to top, #000000, #161214, #231e22, #302a32, #3a3744, #3b3745, #3c3745, #3d3746, #342a35, #2a1d24, #1e1215, #110000);
+
+}
+
+.row {
+    justify-content: space-between;
+}
+
+/* <!----------------------Graph Representation end ----------------- --> */

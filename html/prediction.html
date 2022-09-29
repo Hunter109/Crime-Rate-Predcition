@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PREDCTION</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favion/site.webmanifest">
+    <link rel="mask-icon" href="../favion/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/predction.css">
+</head>
+
+<body>
+    <nav class="navbar sticky-top">
+        <!-- LOGO -->
+        <div class="logo">CRIME RATE PREDICTION</div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../html/overview.html">OVERVIEW</a></li>
+                <li><a href="../html/visualization.html">VISUALIZATION</a></li>
+                <li><a href="../html/prediction.html">PREDICTION</a></li>
+            </div>
+        </ul>
+    </nav>
+    <!-- nav end -->
+    <!-- topic Banner start -->
+    <div class="container">
+        <div class="child">
+            <h2>Predict Crime Rate</h2>
+        </div>
+    </div>
+    <!-- Topic Banner end -->
+    <!-- prediction box start -->
+    <div class="container">
+        <div class="predict">
+            <label for="Location">
+                District ID:
+            </label>
+            <select id="Location">
+                <option value="#">1.0</option>
+                <option value="#">2.0</option>
+                <option value="#">3.0</option>
+                <option value="#">4.0</option>
+                <option value="#">5.0</option>
+                <option value="#">6.0</option>
+                <option value="#">7.0</option>
+            </select>
+            <div class="data-enter">
+                <span>Crime Rate:</span>
+                <input type="number" class="form-control" id="formGroupExampleInput" placeholder="Enter Crime Rate">
+            </div>
+            <button type="button" class="btn btn-danger btn-lg"><a href="#">Predict Now</a></button>
+        </div>
+    </div>
+    <!-- prediction box end -->
+    <!-- footer start-->
+    <footer>
+        <div class="footer-content">
+            <h3>Crime Rate prediction</h3>
+            <p>Our Aim Is To Analysis And Predict The Future Crime Rate From Historical Data.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022, all rights reserved, <a href="#">Girls Team</a> </p>
+            <div class="footer-menu">
+                <ul class="f-menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./overview.html">Overview</a></li>
+                    <li><a href="./visualization.html">Visualization</a></li>
+                    <li><a href="./prediction.html">Prediction</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

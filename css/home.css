@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(196, 188, 188);
+    background-color: #fff;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+/*---------------------------------- NAVBAR -----------------------------*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #030e12;
+    color: #fff;
+}
+
+
+.nav-links a {
+    color: #fff;
+}
+
+.nav-links a:hover {
+
+    color: red;
+}
+
+/*-------------------------- LOGO------------------ */
+.logo {
+    font-size: 32px;
+}
+
+.logo:hover {
+    color: red;
+    cursor: pointer;
+    transition: ease-in-out 3s;
+}
+
+/*--------------------- NAVBAR MENU-------------- */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+
+.menu li:hover {
+    border-radius: 5px;
+    transition: .2s ease-in;
+    text-decoration: overline underline;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+
+input[type=checkbox] {
+    display: none;
+}
+
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+/* ---------- RESPONSIVE NAVBAR style -----------*/
+@media (max-width: 768px) {
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #030e12;
+        right: 0;
+        left: 0;
+        text-align: center;
+        margin-top: 10px;
+        padding: 16px 0;
+    }
+
+    input[type=checkbox]:checked~.menu {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+
+        transition: 0.3s ease;
+    }
+
+    .menu li+li {
+        margin-top: 12px;
+    }
+
+}
+
+/*----------Navbar End -------------*/
+
+
+/*--------- Defination QUOTE -----------*/
+.define {
+    width: auto;
+    margin: 25px 25px 25px 25px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.about {
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(15, 14, 14, 0.15);
+    background-image: linear-gradient(to top, #000000, #161214, #231e22, #302a32, #3a3744, #3b3745, #3c3745, #3d3746, #342a35, #2a1d24, #1e1215, #110000);
+    text-align: center;
+}
+
+/*----------- Defination QUOTE--- */
+
+
+
+.card-header {
+    background-color: #111;
+    color: #fff;
+}
+
+.card-body a {
+    color: #111;
+}
+
+.card-body a:hover {
+    color: red;
+
+}
+
+/* ---------------Footer Start--------------- */
+footer {
+    position: absolute;
+    margin-top: 10px;
+    background: #111;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+    color: red;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom p a {
+    color: red;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.footer-menu {
+    float: right;
+}
+
+.footer-menu ul {
+    display: flex;
+}
+
+.footer-menu ul li {
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-menu ul li a {
+    color: #cfd2d6;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: red;
+}
+
+/*----------Footer Responsive media Query -------------*/
+@media (max-width:500px) {
+    .footer-menu ul {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OVERVIEW</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favion/site.webmanifest">
+    <link rel="mask-icon" href="../favion/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/overview.css">
+</head>
+
+<body>
+    <nav class="navbar sticky-top">
+        <!-- LOGO -->
+        <div class="logo">CRIME RATE PREDICTION</div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../html/overview.html">OVERVIEW</a></li>
+                <li><a href="../html/visualization.html">VISUALIZATION</a></li>
+                <li><a href="../html/prediction.html">PREDICTION</a></li>
+            </div>
+        </ul>
+    </nav>
+    <!-- navbar end -->
+    <!-- total crime banner ---- -->
+    <div class="container">
+        <div class="child">
+            <h2>Total Crime </h2>
+        </div>
+        <div class="total-crime-digit">
+            <h2>Backend</h2>
+        </div>
+    </div>
+    <!-- total crime banner end ---- -->
+    <!----------------------overview Representation ----------------- -->
+    <!-- Table Represntation representation of Crime Amount Per District ID-->
+    <div class="row  row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3 ">
+                    <h4 class="my-0 fw-normal">Crime Amount Per District ID</h4>
+                </div>
+                <div class="card-body">
+                    <!--Table start-->
+                    <table class="table table-striped">
+                        <!--Table head start-->
+                        <thead>
+                            <tr>
+                                <th>S.N</th>
+                                <th>District ID</th>
+                                <th>Crime Amount</th>
+                            </tr>
+                        </thead>
+                        <!--Table head end-->
+                        <!--Table body start-->
+                        <tbody>
+                            <tr class="table-info">
+                                <th scope="row">1</th>
+                                <td>1.0</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>2.0</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr class="table-info">
+                                <th scope="row">3</th>
+                                <td>3.0</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>4.0</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr class="table-info">
+                                <th scope="row">5</th>
+                                <td>5.0</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>6.0</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr class="table-info">
+                                <th scope="row">7</th>
+                                <td>7.0</td>
+                                <td>Backend</td>
+                            </tr>
+                        </tbody>
+                        <!--Table body end-->
+                    </table>
+                    <!--Table end-->
+                </div>
+            </div>
+        </div>
+        <!-- Table Represntation representation of Crime Amount Per District ID End-->
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3 ">
+                    <h4 class="my-0 fw-normal">Geographically</h4>
+                </div>
+                <div class="card-body">
+                    <p> yaha map halni</p>
+                </div>
+            </div>
+        </div>
+        <!-- Table Represntation representation of Crime Amount per offenses-->
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3 ">
+                    <h4 class="my-0 fw-normal">Crime Amount Per Offenses</h4>
+                </div>
+                <div class="card-body">
+                    <!--Table start-->
+                    <table class="table table-striped">
+                        <!--Table head start-->
+                        <thead>
+                            <tr>
+                                <th>S.N</th>
+                                <th>Offenses</th>
+                                <th>Crime Amount</th>
+                            </tr>
+                        </thead>
+                        <!--Table head end-->
+                        <!--Table body start-->
+                        <tbody>
+                            <tr class="table-info">
+                                <th scope="row">1</th>
+                                <td>Murder</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Arson</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr class="table-info">
+                                <th scope="row">3</th>
+                                <td>Drug-Alcohol</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Roberry</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr class="table-info">
+                                <th scope="row">5</th>
+                                <td>White-color-crime</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Aggravated-assault</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr class="table-info">
+                                <th scope="row">7</th>
+                                <td>Other-Crimes-against-person</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>All-Other-Crime</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr class="table-info">
+                                <th scope="row">9</th>
+                                <td>Burglary</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td>Public-Disorder</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr class="table-info">
+                                <th scope="row">11</th>
+                                <td>Larceny</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">12</th>
+                                <td>Auto-theft</td>
+                                <td>Backend</td>
+                            </tr>
+                            <tr class="table-info">
+                                <th scope="row">13</th>
+                                <td>Theft-from-Motor-Vehicle</td>
+                                <td>Backend</td>
+                            </tr>
+                        </tbody>
+                        <!--Table body end-->
+                    </table>
+                    <!--Table end-->
+                </div>
+            </div>
+        </div>
+        <!-- Table Represntation representation of Crime Amount per offenses-->
+    </div>
+    <!----------------------overview Representation End ----------------- -->
+    <!--------- footer ---------->
+    <footer>
+        <div class="footer-content">
+            <h3>Crime Rate prediction</h3>
+            <p>Our Aim Is To Analysis And Predict The Future Crime Rate From Historical Data.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022, all rights reserved, <a href="#">Girls Team</a> </p>
+            <div class="footer-menu">
+                <ul class="f-menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./overview.html">Overview</a></li>
+                    <li><a href="./visualization.html">Visualization</a></li>
+                    <li><a href="./prediction.html">Prediction</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

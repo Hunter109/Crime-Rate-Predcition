@@ -1,0 +1,61 @@
+select {
+    width: 20%;
+}
+
+button {
+    margin-top: 10px;
+}
+
+/* <!-- topic Banner start --> */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+    margin: 20px;
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 2;
+    text-align: center;
+    width: 95%;
+}
+
+/* <!-- topic Banner end --> */
+
+
+/* <!-- prediction box start --> */
+.predict {
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 2;
+    color: #fff;
+    text-align: center;
+    width: 95%;
+    border-radius: 20px;
+    background-color: #111;
+}
+
+.predict a {
+    color: #fff;
+}
+
+.data-enter {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.form-control {
+    margin-left: 2px;
+    width: 20%;
+}
+
+/* <!-- prediction box end --> */
